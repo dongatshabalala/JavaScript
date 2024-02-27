@@ -43,8 +43,8 @@ console.log(message);
 /* let str = "Hello, what's your name? Is it \"Mike\"?";
 console.log(str);*/
 
-let str2 = 'Hello, what\'s your name? Is it "Mike"?';
-console.log(str2);
+// let str2 = 'Hello, what\'s your name? Is it "Mike"?';
+// console.log(str2);
 
 let str3 = "New \nline.";
 let str4 = "I'm containing a backslash: \\!";
@@ -121,21 +121,21 @@ variableTypeTest2 = typeof (testVariable);
 console.log(variableTypeTest1);
 console.log(variableTypeTest2);
 
-let str = "Hello";
-let nr = 7;
-let bigNr = 12345678901234n;
-let bool = true;
-let sym = Symbol("unique");
-let undef = undefined;
-let unknown = null;
+// let str = "Hello";
+// let nr = 7;
+// let bigNr = 12345678901234n;
+// let bool = true;
+// let sym = Symbol("unique");
+// let undef = undefined;
+// let unknown = null;
 
-console.log("str", typeof str);
-console.log("nr", typeof nr);
-console.log("bigNr", typeof bigNr);
-console.log("bool", typeof bool);
-console.log("sym", typeof sym);
-console.log("undef", typeof undef);
-console.log("unknown", typeof unknown);
+// console.log("str", typeof str);
+// console.log("nr", typeof nr);
+// console.log("bigNr", typeof bigNr);
+// console.log("bool", typeof bool);
+// console.log("sym", typeof sym);
+// console.log("undef", typeof undef);
+// console.log("unknown", typeof unknown);
 
 // CONVERTING DATA TYPES
 
@@ -173,6 +173,174 @@ let strToBool = "";
 strToBool = Boolean(strToBool);
 console.log(strToBool, typeof strToBool);
 
-let nr1 = 2;
-let nr2 = "2";
-console.log(nr1 + Number(nr2));
+// let nr1 = 2;
+// let nr2 = "2";
+// console.log(nr1 + Number(nr2));
+
+// ADDITION
+
+// let nr1 = 12;
+// let nr2 = 14;
+// let result1 = nr1 + nr2;
+// console.log(result1);
+
+// let str1 = "Hello";
+// let str2 = "addition";
+// let result2 = str1 + str2;
+// console.log(result2);
+
+// SUBTRACTION
+
+// let nr1 = 20;
+// let nr2 = 4;
+// let str1 = "Hi";
+// let nr3 = 3;
+// let result1 = nr1 - nr2;
+// let result2 = str1 - nr3;
+// console.log(result1, result2);
+
+// MULTIPLICATION
+
+// let nr1 = 15;
+// let nr2 = 10;
+// let str1 = "Hi";
+// let nr3 = 3;
+// let result1 = nr1 * nr2;
+// let result2 = str1 * nr3;
+// console.log(result1, result2);
+
+// DIVISION
+
+// let nr1 = 30;
+// let nr2 = 5;
+// let result1 = nr1 / nr2;
+// console.log(result1);
+
+// EXPONENTIATION
+
+// let nr1 = 2;
+// let nr2 = 3;
+// let result1 = nr1 ** nr2;
+// console.log(result1);
+
+// MODULUS
+
+// let nr1 = 10;
+// let nr2 = 3;
+// let result1 = nr1 % nr2;
+// console.log(`${nr1} % ${nr2} = ${result1}`);
+// let nr3 = 8;
+// let nr4 = 2;
+// let result2 = nr3 % nr4;
+// console.log(`${nr3} % ${nr4} = ${result2}`);
+// let nr5 = 15;
+// let nr6 = 4;
+// let result3 = nr5 % nr6;
+// console.log(`${nr5} % ${nr6} = ${result3}`);
+
+// UNARY OPERATORS: INCREMENT AND DECREMENT
+
+// let nr1 = 4;
+// nr1++;
+// console.log(nr1);
+// let nr2 = 4;
+// nr2--;
+// console.log(nr2);
+
+// PREFIX AND POSTFIX OPERATORS
+
+// let nr = 2;
+// console.log(nr++);
+// console.log(nr);
+
+// let nr = 2;
+// console.log(++nr);
+
+// let nr1 = 4;
+// let nr2 = 5;
+// let nr3 = 2;
+// console.log(nr1++ + ++nr2 * nr3++);
+
+// ASSIGNMENT OPERATORS
+
+// let x = 2;
+
+// x += 2;
+
+// x -= 2;
+
+// x *= 6;
+
+// x /= 3;
+
+// x **= 2;
+
+// x %= 3;
+
+// console.log(x);
+
+// COMPARISON OPERATORS
+
+// EQUAL
+
+// let x = 5;
+// let y = "5";
+// console.log(x == y);
+
+// console.log(x === y);
+
+// NOT EQUAL
+
+// let x = 5;
+// let y = "5";
+// console.log(x != y);
+
+// console.log(x !== y);
+
+// GREATER THAN AND SMALLER THAN
+
+// let x = 5;
+// let y = 6;
+
+// console.log(y > x);
+
+// console.log(x > y);
+
+// console.log(y > y);
+
+// console.log(y >= y);
+
+// console.log(y < x);
+
+// console.log(x < y);
+
+// console.log(y < y);
+
+// console.log(y <= y);
+
+// AND
+
+// let x = 1;
+// let y = 2;
+// let z = 3;
+
+// console.log(x < y && y < z);
+
+// console.log(x > y && y < z);
+
+// OR
+
+// console.log(x > y || y < z);
+
+// console.log(x > y || y > z);
+
+// NOT
+
+// let x = false;
+// console.log(!x);
+
+let x = 1;
+let y = 2;
+console.log(!(x < y));
+
+
