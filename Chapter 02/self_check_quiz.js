@@ -6,7 +6,7 @@
 
 // 3. Which one is generally better, line 1 or line 2?
 // let empty1 = undefined; //line 1
-// let empty2 = null; //line 2
+// let empty2 = null; //line 2 THIS IS ONE IS BETTER
 
 /* LINE 1 IS BETTER THAN LINE 2 BECAUSE IT IS NOT AN OBJECT
 DESPITE RETURNING ONE*/
@@ -37,9 +37,9 @@ DESPITE RETURNING ONE*/
 // let b = 70;
 // let c = "5";
 // b++;
-// console.log(b);
+// console.log(b); the answer is 71
 
-// THE OUTPUT WILL BE 70
+// THE OUTPUT WILL BE 70 
 
 // 8. What is the value of result?
 // let result = 3 + 4 * 2 / 8;
@@ -52,12 +52,12 @@ DESPITE RETURNING ONE*/
 // firstNum++;
 // secondNum--;
 // let total = ++firstNum + secondNum;
-// console.log(total);
+// console.log(total); I did the operation incorrectly
 
 // total is 16
 
 // let total2 = 500 + 100 / 5 + total--;
-// console.log(total2);
+// console.log(total2); I did this one incorrectly
 
 // total2 is 536
 

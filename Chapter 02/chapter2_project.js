@@ -12,12 +12,15 @@ let inchHeight = prompt("Please insert a height in inches.");
 
 let poundWeight = prompt("Please insert a weight in pounds.");
 
-let centiHeight = inchHeight*2.54;
+let centiHeight = (inchHeight*2.54);
 
-let kiloWeight = poundWeight*2.2046;
+let meterHeight = centiHeight/100;
 
-bmIndex = kiloWeight/(centiHeight**2);
+let kiloWeight = poundWeight/2.2046;
+
+bmIndex = kiloWeight/(meterHeight**2);
 
 console.log(bmIndex);
+
 
 
